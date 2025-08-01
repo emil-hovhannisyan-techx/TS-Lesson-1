@@ -1,7 +1,7 @@
 // 1. Create a Generic Function reverseArray to Reverse an Array of Any Type:
 
 function reverseArray<T>(arr: T[]): T[] {
-  return arr.slice().reverse();
+  return arr.reverse();
 }
 
 //Example usages
