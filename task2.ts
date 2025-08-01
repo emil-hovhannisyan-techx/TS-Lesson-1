@@ -7,7 +7,7 @@ interface Person {
   email: string;
 }
 
-class Employee implements Person {
+class Employee {
   constructor(public name: string, public age: number, public email: string) {}
 
   displayInfo(): string {
